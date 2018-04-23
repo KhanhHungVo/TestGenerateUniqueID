@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestModelStoreContainer" CdmEntityContainer="TestEntities">
+    <EntitySetMapping Name="GenerateTests">
+      <EntityTypeMapping TypeName="TestModel.GenerateTest">
+        <MappingFragment StoreEntitySet="GenerateTest">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="key1" ColumnName="key1" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="key2" ColumnName="key2" />
+          <ScalarProperty Name="key3" ColumnName="key3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
